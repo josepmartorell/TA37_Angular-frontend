@@ -1,0 +1,22 @@
+
+<div class="modal" [attr.id]="'modal' + character.id">
+    <div class="card modal-dialog" style="width: 18rem;">
+        <div class="modal-content">
+            <img src="{{character.image}}" class="card-img-top" alt="{{character.id}}">
+            <div class="card-body">
+                <h5 class="card-title">{{character.name}}</h5>
+                <p class="card-text">LOCATION:&nbsp;{{character.location.name}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">SPECIES:&nbsp;{{character.species}}</li>
+                <li class="list-group-item">GENDER&nbsp;{{character.gender}}</li>
+                <li class="list-group-item">STATUS:&nbsp;{{character.status}}</li>
+                <li class="list-group-item">ORIGIN:&nbsp;{{character.origin.name}}</li>
+            </ul>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+</div>
