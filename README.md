@@ -1,2 +1,2 @@
 # TA37_Angular-frontend
- Rick &amp; Morty Frontend App https://main.d1t05tso17aey3.amplifyapp.com/home
+ Rick &amp; Morty Frontend App [AWS Deploy](https://main.d2wo93wiio4evj.amplifyapp.com/home)
